@@ -1,12 +1,247 @@
 {
-  "users": [
+  "albums": [
     {
       "id": 1,
-      "name": "Ryan"
+      "name": "Mexican Food"
     },
     {
-      "name": "Mike",
-      "id": 2
+      "id": 2,
+      "name": "Italian Food"
+    },
+    {
+      "id": 3,
+      "name": "Chinese Food"
+    },
+    {
+      "id": 4,
+      "name": "Greek Food"
+    },
+    {
+      "id": 5,
+      "name": "Barbeque"
+    },
+    {
+      "id": 6,
+      "name": "Japanese Food"
     }
+  ], 
+  "pictures":[
+    {
+      "id":1,
+      "name": "Tacos",
+      "url": "https://ixtapacantina.com/wp-content/uploads/2015/05/ThinkstockPhotos-186347699-300x300.jpg",
+      "albumId": 1
+    },
+    {
+      "id":2,
+      "name": "Enchiladas",
+      "url": "http://team-metro.org/wp-content/uploads/2017/06/abuelos-mexican-restaurant-arlington2-300x300.jpg",
+      "albumId": 1
+    },
+    {
+      "id":3,
+      "name": "Ceviche",
+      "url": "https://cycloneanaya.com/wp-content/uploads/2016/03/Seafood-Ceviche-300x300.png",
+      "albumId": 1
+    },
+    {
+      "id":4,
+      "name": "Nachos",
+      "url": "https://www.visithendersonvillenc.org/wp-content/uploads/el-paso-300x300.jpg",
+      "albumId": 1
+    },
+    {
+      "id":5,
+      "name": "Tamales",
+      "url": "https://cycloneanaya.com/wp-content/uploads/2016/03/Facebook-Tamale-300x300.png",
+      "albumId": 1
+    },
+    {
+      "id":6,
+      "name": "Burrito",
+      "url": "https://static.wixstatic.com/media/08dfda_79ee1a7aa95346449adcc8670e7d8f98~mv2.jpeg/v1/fit/w_300,h_300,al_c,q_80/file.jpeg",
+      "albumId": 1
+    },
+    {
+      "id":7,
+      "name": "Spaghetti",
+      "url": "https://www.kitchensanctuary.com/wp-content/uploads/2017/04/Amatriciana-pasta-recipe-square-FS-300x300-1.jpg",
+      "albumId": 2
+    },
+    {
+      "id":8,
+      "name": "Pizza",
+      "url": "https://www.papa.org.uk/images/join/fp_articles/retailer_300.jpg",
+      "albumId": 2
+    },
+    {
+      "id":9,
+      "name": "Tortellini",
+      "url": "https://www.thereciperebel.com/wp-content/uploads/2017/02/italian-chicken-tortellini-skillet-www.thereciperebel.com-5-of-7-320x320-1-300x300.jpg",
+      "albumId": 2
+    },
+    {
+      "id":10,
+      "name": "Pasta Salad",
+      "url": "https://iowagirleats.com/wp-content/uploads/2015/07/The-BEST-Pasta-Salad-iowagirleats-300x300.jpg",
+      "albumId": 2
+    },
+    {
+      "id":11,
+      "name": "Lasagna",
+      "url": "https://theperfectportion.com/wp-content/uploads/2016/07/PerfectPortion-Lasagna-1-300x300.jpg",
+      "albumId": 2
+    },
+    {
+      "id":12,
+      "name": "Chicken Parmesan",
+      "url": "https://www.the-girl-who-ate-everything.com/wp-content/uploads/2009/02/chicken-parmesan-3-300x300.jpg",
+      "albumId": 2
+    },
+    {
+      "id":13,
+      "name": "Wonton Soup",
+      "url": "https://seonkyounglongest.com/wp-content/uploads/2018/12/Wonton-Noodle-Soup-2-300x300.jpg?x61413",
+      "albumId": 3
+    },
+    {
+      "id":14,
+      "name": "Dim sum",
+      "url": "https://www.capecodmuseumtrail.com/wp-content/uploads/2018/01/Dim-Sum-300x300.jpg",
+      "albumId": 3
+    },
+    {
+      "id":15,
+      "name": "Steamed Fish",
+      "url": "http://www.justputzing.com/wp-content/uploads/2015/02/Steamed-Fish-6-1-of-1-300x300.jpg",
+      "albumId": 3
+    },
+    {
+      "id":16,
+      "name": "BBQ Pork",
+      "url": "https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_3.0,f_auto,w_100/31813_sfs-chinese-bbq-pork-057",
+      "albumId": 3
+    },
+    {
+      "id":17,
+      "name": "Mapo Tofu",
+      "url": "https://under500calories.com/photos/300x300/73446.jpg",
+      "albumId": 3
+    },
+    {
+      "id":18,
+      "name": "Beef Chow Fun",
+      "url": "https://omnivorescookbook.com/wp-content/uploads/2019/08/1710_Beef-Chow-Fun_550-300x300.jpg",
+      "albumId": 3
+    },
+    {
+      "id":19,
+      "name": "Gyro",
+      "url": "https://winnetkahotel.com/wp-content/uploads/sites/25/2017/05/Greek-food-300x300-1.jpg",
+      "albumId": 4
+    },
+    {
+      "id":20,
+      "name": "Greek Salad",
+      "url": "https://www.stephgaudreau.com/wp-content/uploads/2018/08/Simple-Greek-Salad-4-300x300.jpg",
+      "albumId": 4
+    },
+    {
+      "id":21,
+      "name": "Hummus",
+      "url": "https://thekitchengirl.com/wp-content/uploads/Homemade-Hummus-2-300x300.jpg",
+      "albumId": 4
+    },
+    {
+      "id":22,
+      "name": "Baklava",
+      "url": "http://anteplicafe.com/wp-content/uploads/baklava-300x300.png",
+      "albumId": 4
+    },
+    {
+      "id":23,
+      "name": "Chicken Kabob",
+      "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3465422.jpg&w=300&h=300&c=sc&poi=face&q=85",
+      "albumId": 4
+    },
+    {
+      "id":24,
+      "name": "Pita Bread",
+      "url": "https://pinchandswirl.com/wp-content/uploads/2017/08/Pita-Bread-served-in-a-bowl-wrapped-in-white-cloth-featured-300x300.jpg",
+      "albumId": 4
+    },
+    {
+      "id":25,
+      "name": "Brisket",
+      "url": "https://i1.wp.com/sunsetandsewanee.com/wp-content/uploads/2019/06/slicing-2.jpg?resize=300%2C300&ssl=1",
+      "albumId": 5
+    },
+    {
+      "id":26,
+      "name": "Ribs",
+      "url": "https://cdn.shopify.com/s/files/1/0025/2870/6629/products/BabyBackPorkRibs_LG_grande.jpg?v=1534795202",
+      "albumId": 5
+    },
+    {
+      "id":27,
+      "name": "Pulled Pork",
+      "url": "https://keviniscooking.com/wp-content/uploads/2019/05/Classic-Pulled-Pork-Sandwich-square-300x300.jpg",
+      "albumId": 5
+    },
+    {
+      "id":28,
+      "name": "Tri-tip",
+      "url": "https://www.farmers-corner.com/wp-content/uploads/2017/03/Tri-tip-sm-300x300.jpg",
+      "albumId": 5
+    },
+    {
+      "id":29,
+      "name": "Beer Can Chicken",
+      "url": "https://www.thekitchenmagpie.com/wp-content/uploads/images/2017/05/BeerCanChicken1-300x300.jpg",
+      "albumId": 5
+    },
+    {
+      "id":30,
+      "name": "BBQ Beans",
+      "url": "uhttps://beavertonfoods.com/wp-content/uploads/2014/09/bbq-baked-beans-300x300.jpg",
+      "albumId": 5
+    },
+    {
+      "id":31,
+      "name": "Sashimi",
+      "url": "https://offthehooksushi.com/wp-content/uploads/2017/12/Sashimi_600px-300x300.jpg",
+      "albumId": 6
+    },
+    {
+      "id":32,
+      "name": "Ramen",
+      "url": "https://www.wakouusa.com/wp-content/uploads/2017/08/001SHOYU_RAMEN_113_edit-300x300.jpg",
+      "albumId": 6
+    },
+    {
+      "id":33,
+      "name": "Shabu Shabu",
+      "url": "https://s3-media3.fl.yelpcdn.com/bphoto/KjpbMsLKg9qFiHC_RCDzVw/300s.jpg",
+      "albumId": 6
+    },
+    {
+      "id":34,
+      "name": "Nigiri",
+      "url": "https://offthehooksushi.com/wp-content/uploads/2017/12/nigiri-300x300.jpg",
+      "albumId": 6
+    },
+    {
+      "id":35,
+      "name": "Yakatori",
+      "url": "https://s3-media4.fl.yelpcdn.com/bphoto/mncJ0XQhOQ6JFYiIpCHWXA/300s.jpg",
+      "albumId": 6
+    },
+    {
+      "id":36,
+      "name": "Sushi Roll",
+      "url": "https://yuhoki.co.uk/image/cache/catalog/products-images/products-20-06-2018/64.rainbowroll-300x300.jpg",
+      "albumId": 6
+    }
+
   ]
 }
