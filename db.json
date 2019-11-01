@@ -2,27 +2,33 @@
   "albums": [
     {
       "id": 1,
-      "name": "Mexican Food"
+      "name": "Mexican Food",
+      "url": "https://ixtapacantina.com/wp-content/uploads/2015/05/ThinkstockPhotos-186347699-300x300.jpg"
     },
     {
       "id": 2,
-      "name": "Italian Food"
+      "name": "Italian Food",
+      "url": "https://www.kitchensanctuary.com/wp-content/uploads/2017/04/Amatriciana-pasta-recipe-square-FS-300x300-1.jpg"
     },
     {
       "id": 3,
-      "name": "Chinese Food"
+      "name": "Chinese Food",
+      "url": "https://seonkyounglongest.com/wp-content/uploads/2018/12/Wonton-Noodle-Soup-2-300x300.jpg?x61413"
     },
     {
       "id": 4,
-      "name": "Greek Food"
+      "name": "Greek Food",
+      "url": "https://winnetkahotel.com/wp-content/uploads/sites/25/2017/05/Greek-food-300x300-1.jpg"
     },
     {
       "id": 5,
-      "name": "Barbeque"
+      "name": "Barbeque",
+      "url": "https://i1.wp.com/sunsetandsewanee.com/wp-content/uploads/2019/06/slicing-2.jpg?resize=300%2C300&ssl=1"
     },
     {
       "id": 6,
-      "name": "Japanese Food"
+      "name": "Japanese Food",
+      "url": "https://offthehooksushi.com/wp-content/uploads/2017/12/Sashimi_600px-300x300.jpg"
     }
   ], 
   "pictures":[

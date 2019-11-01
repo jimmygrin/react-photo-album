@@ -1,47 +1,43 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
+import { Link } from 'react-router-dom'
+import axios from "axios"
 
-function App(props) {
+
+function Myalbums(props) {
+  const [albums, setAlbums] = useState([])
+
+  useEffect(()=>{
+  axios.get("/albums").then(resp =>{
+    setAlbums(resp.data)
+  })
+}, [albums])
+
+
   return( 
-  <div>
-  <h1>My Albums</h1>
-  <div class="columns">
-        <div class="firstcol">
-            <div class="album">
-            
+  <div class="albumcontainer">
+        <h1>My Albums</h1>
+        <div class="columns">
+            <div class="firstcol">
+                <div class="album">
+                  {albums.map(album => (
+                    
+                    <div class="eachalbum">
+                      <Link to ={"/album/" + album.id}>
+                      <img src={album.url}/>
+                      <p>{album.name}</p>
+                      </Link>
+                   </div>
+                ))}
+                </div>
+               
             </div>
-            <div class="album">
-         
-            </div>
-      
-        </div>
   
     
-        <div class="secondcol">
-             <div class="album">
+        
 
-
-            </div>
-
-            <div class="album">
-
-                
-            </div>
-
+            
         </div>
-
-        <div class="thirdcol">
-             <div class="album">
-
-            </div>
-
-            <div class="album">
-
-            </div>
-
-        </div>
-
     </div>
-    </div>
-  )}
+)}
 
-export default myalbums
+export default Myalbums

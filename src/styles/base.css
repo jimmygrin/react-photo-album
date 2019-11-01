@@ -20,3 +20,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.albumcontainer {
+  width: 1200px;
+  margin: auto;
+
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.album {
+
+  width: 1000px;
+
+  display: flex;  
+  flex-flow: row wrap;
+
+}
+
+.eachalbum {
+  margin: 10px;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.pictures {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1200px;
+  border: solid 1px black;
+}
+
+.eachpic {
+  margin: 10px;
+}
+
+.picbody {
+  display: flex;
+  width: ;
+ 
+}
+
+.list {
+  border: solid 1px black;
+  width: 200px;
+}
