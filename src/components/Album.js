@@ -6,7 +6,7 @@ import axios from "axios"
 
 
 function Album(props) {
-
+    const [albums, setAlbums] = useState([])
     const[album, setAlbum] = useState("")
 const [pictures, setPictures] = useState([])
 const albumId = props.match.params.albumId;
@@ -18,6 +18,12 @@ axios.get(`/albums/${albumId}?_embed=pictures`).then(resp => {
 })
 }, [albumId])
 
+useEffect(()=>{
+    axios.get("/albums").then(resp =>{
+      setAlbums(resp.data)
+    })
+  }, [])
+
   return (
 
     <div class="piccontainer">
@@ -25,9 +31,16 @@ axios.get(`/albums/${albumId}?_embed=pictures`).then(resp => {
             <h1>My Pictures</h1>
         </div>   
         <div class="picbody">     
-            <div class="list">
-            album
-            </div>   
+        <div class="list">
+                  {albums.map(album => (
+                    
+                    <div class="eachalbum">
+                      <Link to ={"/album/" + album.id}>
+                      <p>{album.name}</p>
+                      </Link>
+                   </div>
+                ))}
+                </div>   
             <div class="pictures">
                 {pictures.map(pic => (
                     <div class="eachpic">

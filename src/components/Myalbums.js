@@ -7,10 +7,10 @@ function Myalbums(props) {
   const [albums, setAlbums] = useState([])
 
   useEffect(()=>{
-  axios.get("/albums").then(resp =>{
-    setAlbums(resp.data)
-  })
-}, [albums])
+    axios.get("/albums").then(resp =>{
+      setAlbums(resp.data)
+    })
+  }, [])
 
 
   return( 

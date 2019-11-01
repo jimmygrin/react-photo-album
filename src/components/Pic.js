@@ -25,7 +25,7 @@ axios.get(`/pictures/${id}`).then(resp => {
              
             <div class="picture">
                 
-                <div class="eachpic">
+                <div class="singlepic">
                     <div>
                         <img src={picture.url}/>
                     </div>

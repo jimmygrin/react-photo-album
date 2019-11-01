@@ -24,17 +24,19 @@ code {
 .albumcontainer {
   width: 1200px;
   margin: auto;
+ background: green;
 
 }
 .container {
-  width: 1200px;
+  width: 1500px;
   margin: auto;
+  background: yellow;
 }
 
 .album {
 
   width: 1000px;
-
+  margin: auto;
   display: flex;  
   flex-flow: row wrap;
 
@@ -42,7 +44,12 @@ code {
 
 .eachalbum {
   margin: 10px;
+  border: solid red 2px;
 
+}
+
+img {
+  border: solid red 2px;
 }
 
 h1 {
@@ -60,8 +67,14 @@ p {
   border: solid 1px black;
 }
 
+.singlepic {
+  display: flex;
+  justify-content: center;
+}
+
 .eachpic {
   margin: 10px;
+  border: solid red 2px;
 }
 
 .picbody {
