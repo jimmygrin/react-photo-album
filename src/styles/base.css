@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;;
 }
 *,
 *::before,
@@ -14,6 +15,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260S);
+  
 }
 
 code {
@@ -22,38 +25,48 @@ code {
 }
 
 .albumcontainer {
-  width: 1200px;
+  width: 1000px;
   margin: auto;
- background: green;
+
+
 
 }
 .container {
-  width: 1500px;
+  width: 1200px;
+  height: 1200px;
   margin: auto;
-  background: yellow;
+  background: lightgrey;
+  border-radius: 25px;
+
+ 
 }
 
 .album {
 
-  width: 1000px;
+  width: auto;
   margin: auto;
   display: flex;  
+  justify-content: center;
   flex-flow: row wrap;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  border: black solid 1px;
 
 }
 
 .eachalbum {
   margin: 10px;
-  border: solid red 2px;
+ 
 
 }
 
 img {
-  border: solid red 2px;
+  
 }
 
 h1 {
   text-align: center;
+
 }
 
 p {
@@ -62,28 +75,44 @@ p {
 
 .pictures {
   display: flex;
+  justify-content: center;
   flex-flow: row wrap;
   width: 1200px;
-  border: solid 1px black;
+ 
+  padding-bottom: 150px;
+  padding-top: 50px;
+
+  
+
 }
 
 .singlepic {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 50px;
 }
 
 .eachpic {
   margin: 10px;
-  border: solid red 2px;
+
 }
 
 .picbody {
-  display: flex;
-  width: ;
+ margin: auto;
+ margin-top: 50px;
+  
  
 }
 
+.albumsections {
+  display: flex;
+}
+
 .list {
-  border: solid 1px black;
+  
   width: 200px;
+  padding-top: 50px;
 }

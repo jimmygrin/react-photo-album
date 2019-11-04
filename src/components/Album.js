@@ -30,7 +30,7 @@ useEffect(()=>{
         <div class="header">
             <h1>My Pictures</h1>
         </div>   
-        <div class="picbody">     
+        <div class="albumsections">     
         <div class="list">
                   {albums.map(album => (
                     

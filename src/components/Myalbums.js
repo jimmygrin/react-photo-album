@@ -16,8 +16,7 @@ function Myalbums(props) {
   return( 
   <div class="albumcontainer">
         <h1>My Albums</h1>
-        <div class="columns">
-            <div class="firstcol">
+        
                 <div class="album">
                   {albums.map(album => (
                     
@@ -30,13 +29,7 @@ function Myalbums(props) {
                 ))}
                 </div>
                
-            </div>
-  
     
-        
-
-            
-        </div>
     </div>
 )}
 
